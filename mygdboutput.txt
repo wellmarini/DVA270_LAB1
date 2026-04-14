@@ -1,0 +1,42 @@
+Dump of assembler code for function main:
+   0x00000c1c <+0>:	push	{r7}
+   0x00000c1e <+2>:	sub	sp, #52	@ 0x34
+   0x00000c20 <+4>:	add	r7, sp, #0
+   0x00000c22 <+6>:	ldr	r2, [pc, #60]	@ (0xc60 <main+68>)
+   0x00000c24 <+8>:	add.w	r3, r7, #20
+   0x00000c28 <+12>:	ldmia	r2, {r0, r1, r2}
+   0x00000c2a <+14>:	stmia.w	r3, {r0, r1, r2}
+   0x00000c2e <+18>:	movs	r3, #51	@ 0x33
+   0x00000c30 <+20>:	strh	r3, [r7, #16]
+   0x00000c32 <+22>:	movs	r3, #50	@ 0x32
+   0x00000c34 <+24>:	strh	r3, [r7, #12]
+   0x00000c36 <+26>:	movs	r3, #49	@ 0x31
+   0x00000c38 <+28>:	strh	r3, [r7, #8]
+   0x00000c3a <+30>:	ldr	r3, [pc, #40]	@ (0xc64 <main+72>)
+   0x00000c3c <+32>:	str	r3, [r7, #4]
+   0x00000c3e <+34>:	add.w	r3, r7, #20
+   0x00000c42 <+38>:	adds	r3, #4
+   0x00000c44 <+40>:	str	r3, [r7, #44]	@ 0x2c
+   0x00000c46 <+42>:	ldr	r3, [pc, #32]	@ (0xc68 <main+76>)
+   0x00000c48 <+44>:	str	r3, [r7, #40]	@ 0x28
+=> 0x00000c4a <+46>:	ldr	r3, [pc, #32]	@ (0xc6c <main+80>)
+   0x00000c4c <+48>:	str	r3, [r7, #36]	@ 0x24
+   0x00000c4e <+50>:	ldr	r3, [pc, #32]	@ (0xc70 <main+84>)
+   0x00000c50 <+52>:	str	r3, [r7, #32]
+   0x00000c52 <+54>:	movs	r3, #0
+   0x00000c54 <+56>:	mov	r0, r3
+   0x00000c56 <+58>:	adds	r7, #52	@ 0x34
+   0x00000c58 <+60>:	mov	sp, r7
+   0x00000c5a <+62>:	ldr.w	r7, [sp], #4
+   0x00000c5e <+66>:	bx	lr
+   0x00000c60 <+68>:	lsls	r4, r7, #16
+   0x00000c62 <+70>:	movs	r0, r0
+   0x00000c64 <+72>:	cmp	r6, #48	@ 0x30
+   0x00000c66 <+74>:	movs	r6, r5
+   0x00000c68 <+76>:	lsls	r0, r3, #16
+   0x00000c6a <+78>:	movs	r0, r0
+   0x00000c6c <+80>:	lsls	r1, r1, #16
+   0x00000c6e <+82>:	movs	r0, r0
+   0x00000c70 <+84>:	lsls	r4, r5, #16
+   0x00000c72 <+86>:	movs	r0, r0
+End of assembler dump.
