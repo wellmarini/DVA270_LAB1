@@ -18,6 +18,8 @@
 //Skapar en driver instance för UARTE:
 nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
 
+// Hej patric jag ändrar din kod just nu för att jag är ond >:))))))))
+
 //skapar en buffer att ta emot tecken vi läser över UARTE
 char buffer;
 
